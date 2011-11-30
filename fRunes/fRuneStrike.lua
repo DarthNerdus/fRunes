@@ -1,6 +1,6 @@
 if (select(2, UnitClass("player")) ~= "DEATHKNIGHT" or fRunesSettings.runestrike ~= true) then return end
 
-local T, C, L = unpack(Tukui)
+local E, C, L, DB = unpack(ElvUI) -- Import Functions/Constants, Config, Locales
 
 local name, _, icon = GetSpellInfo(56815)
 

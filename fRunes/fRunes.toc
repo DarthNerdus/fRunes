@@ -1,9 +1,9 @@
-## Interface: 40100
+## Interface: 40300
 ## Title: fRunes
 ## Notes: Very low-weight rune tracker for Tukui.
-## Author: Foof
-## Version: 1.4
-## RequiredDeps: Tukui
+## Author: Foof/DarthNerdus
+## Version: 1.5
+## RequiredDeps: ElvUI
 
 config.lua
 fRunes.lua

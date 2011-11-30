@@ -1,9 +1,9 @@
 if (select(2, UnitClass("player")) ~= "DEATHKNIGHT") then return end
 
-local T, C, L = unpack(Tukui)
+local E, C, L, DB = unpack(ElvUI) -- Import Functions/Constants, Config, Locales
 
 fRunesSettings = {
-	texture = C.media.normTex,
+	texture = E["media"].normTex,
 	barLength = 40,
 	barThickness = 14,
 	rpBarThickness = 10,

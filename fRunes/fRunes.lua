@@ -1,6 +1,6 @@
 if (select(2, UnitClass("player")) ~= "DEATHKNIGHT") then return end
 
-local T, C, L = unpack(Tukui)
+local E, C, L, DB = unpack(ElvUI) -- Import Functions/Constants, Config, Locales
 
 local colors = fRunesSettings.colors
 
@@ -79,7 +79,7 @@ if (fRunesSettings.displayRpBar) then
 		end
 		
 		rpbar.text = rpbar:CreateFontString(nil, "ARTWORK")
-		rpbar.text:SetFont(C["media"].font, fontHeight, "THINOUTLINE")
+		rpbar.text:SetFont(E["media"].normFont, fontHeight, "THINOUTLINE")
 		rpbar.text:SetPoint("CENTER", 1, 0)
 		rpbar.text:SetTextColor(unpack(colors[5]))
 	end
